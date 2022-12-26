@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --doc-height: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.main {
+  height: calc(var(--doc-height) - 6rem);
+  overflow: overlay;
+  font-family: "Inter", sans-serif;
+}
+.app-green {
+  background: #203b3c;
+}
+.card_animation_0 {
+  transform: translate(0, 10%);
+}
+
+.card_animation_1 {
+  transform: translate(0, -10%);
+  transition: transform 0.6s;
+}
+
+.ps-canvas {
+  background: #030b1b;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.ps-app {
+  background: #2b3143;
+  height: 100vh;
+  overflow: overlay;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.ps-bg-card {
+  background: #1a202c;
+}
+
+.ps-bg-app {
+  background: #2b3143;
+}
